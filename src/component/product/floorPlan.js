@@ -57,7 +57,7 @@ function FloorPlanTitle({ floor, type }) {
                     )}
                 </CSSTransition>
             </TransitionGroup>
-
+                    
         </div>
     )
 }

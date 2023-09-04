@@ -39,9 +39,9 @@ export default function Cement() {
                 <h4>水泥磅數</h4>
                 <p>結構體使用高品質混凝土，<br />
                     <span style={{ fontWeight: 800, fontFamily: `"Microsoft JhengHei", serif` }}>
-                        地下層6000磅<br />
-                        1~10層5000磅<br />
-                        10~屋突層4000磅，<br />
+                        B4~4F 6000磅<br />
+                        4F~10F 5000磅<br />
+                        10F~屋突層 4000磅，<br />
                     </span>
                     穩定基本結構安全，保障建築最根本的安全堡壘!</p>
             </div>

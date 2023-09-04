@@ -306,7 +306,11 @@ export const sortData = [
                 title: "交誼宴會廳"
             }, {
                 class: "sky-garden",
-                fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-garden1-v1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-garden2-v1.webp").default],
+                fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-garden1-v1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-garden2-v1.webp").default,
+                require("@/img/product/floor/floorPlan/webp/anchor/sky-garden4.webp").default,
+                require("@/img/product/floor/floorPlan/webp/anchor/sky-garden5.webp").default,
+                require("@/img/product/floor/floorPlan/webp/anchor/sky-garden6.webp").default,
+                require("@/img/product/floor/floorPlan/webp/anchor/sky-garden7.webp").default],
                 thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
                 title: "空中花園"
             }, {
@@ -317,7 +321,7 @@ export const sortData = [
             },
             {
                 class: "elevator-standard-floor-B",
-                fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/standard-elevator-B-1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/standard-elevator-B-2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/standard-elevator-B-3.webp").default],
+                fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/standard-elevator-B-1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/standard-elevator-B-2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/standard-elevator-B-3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/second-floor-elevator1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/second-floor-elevator2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/second-floor-elevator3.webp").default],
                 thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
                 title: "標準層B棟梯廳"
             },
@@ -1443,50 +1447,50 @@ export const sortData = [
             B: require("@/img/product/floor/floorPlan/svg/B-R1.svg").default,
             C: require("@/img/product/floor/floorPlan/svg/C-R1.svg").default
         },
-        // anchor: {
-        //     A: [
-        //         {
-        //             class: "sky-bar-A",
-        //             fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default],
-        //             thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
-        //             title: "A棟星空時尚花園吧"
-        //         },
-        //         {
-        //             class: "ktv-A",
-        //             fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/ktv1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/ktv2.webp").default],
-        //             thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
-        //             title: "A棟KTV包廂"
-        //         },
-        //     ],
-        //     B: [
-        //         {
-        //             class: "sky-bar-B",
-        //             fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default],
-        //             thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
-        //             title: "B棟星空時尚花園吧"
-        //         },
-        //         {
-        //             class: "ktv-B",
-        //             fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/ktv1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/ktv2.webp").default],
-        //             thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
-        //             title: "B棟KTV包廂"
-        //         },
-        //     ],
-        //     C: [
-        //         {
-        //             class: "sky-bar-C",
-        //             fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default],
-        //             thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
-        //             title: "C棟星空時尚花園吧"
-        //         },
-        //         {
-        //             class: "ktv-C",
-        //             fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/ktv1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/ktv2.webp").default],
-        //             thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
-        //             title: "C棟KTV包廂"
-        //         },
-        //     ]
-        // }
+        anchor: {
+            A: [
+                {
+                    class: "sky-bar-A",
+                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
+                    thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
+                    title: "A棟星空時尚花園吧"
+                },
+                // {
+                //     class: "ktv-A",
+                //     fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/ktv1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/ktv2.webp").default],
+                //     thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
+                //     title: "A棟KTV包廂"
+                // },
+            ],
+            B: [
+                {
+                    class: "sky-bar-B",
+                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
+                    thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
+                    title: "B棟星空時尚花園吧"
+                },
+                // {
+                //     class: "ktv-B",
+                //     fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/ktv1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/ktv2.webp").default],
+                //     thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
+                //     title: "B棟KTV包廂"
+                // },
+            ],
+            C: [
+                {
+                    class: "sky-bar-C",
+                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
+                    thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
+                    title: "C棟星空時尚花園吧"
+                },
+                // {
+                //     class: "ktv-C",
+                //     fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/ktv1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/ktv2.webp").default],
+                //     thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
+                //     title: "C棟KTV包廂"
+                // },
+            ]
+        }
     },
     {
         type: "R2",
