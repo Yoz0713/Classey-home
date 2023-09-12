@@ -228,9 +228,9 @@ export const sortData = [
             },
             {
                 class: "cafe-1f",
-                fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-3.webp").default],
+                fancyImg: [require("@/img/team/design/webp/007-postulate-fancyImg3-preload.webp").default, require("@/img/product/cafe/webp/001-cafe-bg2.webp").default, require("@/img/product/cafe/webp/002-cafe-bg3.webp").default,require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-3.webp").default],
                 thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
-                title: "咖啡廳一樓"
+                title: "Mori Café森"
             },
             // {
             //     class: "art2",
@@ -271,7 +271,7 @@ export const sortData = [
         anchor: [
             {
                 class: "cafe",
-                fancyImg: [require("@/img/team/design/webp/007-postulate-fancyImg3-preload.webp").default, require("@/img/product/cafe/webp/001-cafe-bg2.webp").default, require("@/img/product/cafe/webp/002-cafe-bg3.webp").default],
+                fancyImg: [require("@/img/team/design/webp/007-postulate-fancyImg3-preload.webp").default, require("@/img/product/cafe/webp/001-cafe-bg2.webp").default, require("@/img/product/cafe/webp/002-cafe-bg3.webp").default,require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-2.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/1f-cafe-3.webp").default],
                 thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
                 title: "Mori Café森"
             },
@@ -1451,7 +1451,7 @@ export const sortData = [
             A: [
                 {
                     class: "sky-bar-A",
-                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
+                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default,require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
                     thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
                     title: "A棟星空時尚花園吧"
                 },
@@ -1465,21 +1465,27 @@ export const sortData = [
             B: [
                 {
                     class: "sky-bar-B",
-                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
+                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default,require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default,  require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
                     thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
                     title: "B棟星空時尚花園吧"
                 },
-                // {
-                //     class: "ktv-B",
-                //     fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/ktv1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/ktv2.webp").default],
-                //     thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
-                //     title: "B棟KTV包廂"
-                // },
+                {
+                    class: "rf-view1-B",
+                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/rf-view-b.webp").default],
+                    thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
+                    title: "B棟樓頂星空造景"
+                },
+                {
+                    class: "rf-view2-B",
+                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/rf-view-b.webp").default],                   
+                     thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
+                    title: "B棟樓頂星空造景"
+                },
             ],
             C: [
                 {
                     class: "sky-bar-C",
-                    fancyImg: [require("@/img/product/floor/floorPlan/webp/anchor/sky-bar4.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar3.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
+                    fancyImg: [  require("@/img/product/floor/floorPlan/webp/anchor/sky-bar1.webp").default, require("@/img/product/floor/floorPlan/webp/anchor/sky-bar2.webp").default],
                     thumb: require("@/img/urban/svg/003-anchor-dot.svg").default,
                     title: "C棟星空時尚花園吧"
                 },

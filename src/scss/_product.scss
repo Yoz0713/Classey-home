@@ -880,8 +880,14 @@
                                     left: 31.8vw;
                                     top: 11vw;
                                 }
-
-
+                                .rf-view1-B{
+                                    left: 13.5vw;
+                                    top: 9.5vw;
+                                }
+                                .rf-view2-B{
+                                    left: 43.6vw;
+                                    top: 15.6vw;
+                                }
                                 //家配圖
                                 .a1-standard {
                                     left: 40vw;
@@ -1160,17 +1166,22 @@
             width: 100%;
             height: 100%;
             z-index: 10;
-            padding: 0 1.5vw;
+            padding: 0 3.8vw 0 1.5vw;
             pointer-events: auto;
 
             >div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 pointer-events: auto;
                 cursor: pointer;
-                padding: 1.5vw;
-
+                width: 2.8vw;
+                height: 2.8vw;
+                border-radius: 50%;
+                background-color: #c2a457de;
                 img {
                     pointer-events: none;
-                    width: 2.5vw;
+                    width: 1.8vw;
                     height: auto;
                     filter: drop-shadow(0 0 2.5px #000) brightness(20);
                 }
